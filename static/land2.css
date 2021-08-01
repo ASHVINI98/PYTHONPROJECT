@@ -1,0 +1,417 @@
+
+
+.bg-header{
+	background-image: url(bgftr.png);
+	
+}
+.bg-light-bl{
+	background-color: #BAD5CE
+}
+.tc{
+	text-align: center;
+}
+.mainbody{
+	background-image: url(bg.jpg);
+}
+.w-1110{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.carousel{
+	height: 341px;
+}
+.carousel-item img{
+	height: 340px;
+}
+.sub-heading
+{
+	font-weight: 900;
+    font-family: pacifico;
+     text-align: center;
+     width: 100%;
+     
+}
+.items-div
+{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 0 50px;
+    margin: 30px 0;
+    align-items: center;
+    
+    
+}
+
+.items
+{
+    height: 380.5px;
+    width: 400.5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.12);
+    border-radius: 10px;
+    margin: 15px;
+    background: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+.items:hover
+{
+    cursor: pointer;
+}
+
+.items img
+{
+   width: auto;
+   height: 80%;
+   border-radius: 20px;
+}
+
+.items-name
+{
+    font-size: 30px;
+    font-family: Perpetua;
+    color: #111111;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    text-align: left;
+    padding: 0 20px;
+    font-family: cursive;
+}
+
+.items-about
+{
+    font-size: 20px;
+    font-family: Perpetua;
+    color: grey;
+    text-align: left;
+    padding: 0 20px;
+    font-family: cursive;
+    width: 100%;
+    height: 20px;
+    margin: 5px;
+}
+
+.pop-items
+{
+    height: 320px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+div
+{
+    display: inline-block;
+}
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+footer{
+	background-image: url(bgftr.png);
+	/*background-position: center center;*/
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+}
+/*end bootstrap multi carosel*/
+
+
+
+/*attract section*/
+
+.attract-area {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 575px;
+    background-attachment: fixed;
+}
+.attract-content h2,p{
+  color: white;
+  font-family: Brush Script MT;
+  font-size: 57px;
+
+}
+.bg-overlay {
+    position: relative;
+    z-index: 2;
+    background-position: center center;
+    background-size: cover;
+}
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-tr {
+  position: relative;
+  z-index: 2;
+  background-position: center center;
+  background-size: cover; }
+  .bg-tr::after {
+    background-color: rgba(10, 12, 18, 0.6);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ""; }
+
+
+
+    .bg-tr1 {
+  position: relative;
+  z-index: 2;
+  background-position: center center;
+  background-size: cover; }
+  .bg-tr1::after {
+    background-color: rgba(10, 12, 18, 0.4);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ""; }
+
+
+
+.Something-else img{
+	margin: 50px;
+	width: 300px;
+	height: 350px;
+}
+.Customize h1,h2,h3,h4,h5,h6,p{
+	font-family: perpetua;
+	color: black;
+	font-size: 20px;
+}
+
+.carousel-mob
+{
+    position:relative;
+    margin:0 auto;
+    top:0px;
+    left:0px;
+    width:1500px;
+    height:300px;
+    overflow:hidden;
+    visibility:hidden;
+}
+
+.car-img
+{
+    width: 1400px;
+}
+
+.com-d-none
+{
+    display: none;
+}
+
+.jumbotron-image
+{
+    position: relative;
+    margin-left: 150px;
+    width: 150px;
+    height: auto;
+}
+
+.b-none
+{
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    background-color: lightblue;
+    box-shadow: 0 0 20px 5px lightblue;
+    margin-right: 30px;
+    height: 40px;
+}
+
+.reviews-block
+{
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.d-blk
+{
+    display: inline-block !important;
+}
+
+.description
+{
+    margin-left: 100px;
+}
+
+.quick-links
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.quick-links input[type="submit"]
+{
+    width: 250px;
+    height: 40px;
+    background: #cecece;
+    color: black;
+    font-weight: 500;
+    margin: 15px 20px;
+    border-radius: 3px;
+    font-family: poppins;
+    border: none;
+    cursor: pointer;
+}
+
+.quick-links input[type="submit"]:focus
+{
+   background: white;
+   border: 1px solid orangered;
+   outline: none;
+}
+/* media responsiveness */
+
+@media only screen and (max-width: 600px)
+{
+
+
+    body
+{
+    overflow-x: hidden;
+}
+
+
+    .mob-d-none
+    {
+        display: none;
+    }
+
+    .com-d-none
+    {
+        display: block;
+    }
+
+    .logo-mob
+    {
+        height: 140px;
+        width: 140px;
+    }
+
+    .carousel-mob
+    {
+        width: 360px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .car-img
+    {
+       
+        width: 500px;
+    }
+
+    .items
+    {
+        height: auto;
+        width: 145px;
+        border-radius: 10px;
+
+    }
+
+    .w-1110
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .attract-area-mob
+    {
+        width: 360px;
+        
+    }
+
+    .safety-img
+    {
+        width: 320px;
+    }
+
+    .sub-heading
+    {
+        width: 360px;
+    }
+
+    .items-div
+    {
+        width: 360px;
+        text-align: ;
+        height: auto;
+       padding: 0%;
+        align-items: ;
+        
+    }
+
+    .w-mob
+    {
+        width: 360px;
+    }
+
+    .h-auto
+    {
+        height: auto;
+    }
+}
+
